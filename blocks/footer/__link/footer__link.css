@@ -1,0 +1,20 @@
+.footer__link {
+    font-size: 16px;
+    line-height: 1.125;
+    font-weight: 400;
+    text-decoration: none;
+    cursor: url(../../../images/Pointer.cur), pointer;
+    color: white;
+}
+
+.footer__link:hover {
+    opacity: 0.8;
+    transition: opacity 0.5s ease 0.1s; 
+}
+
+@media screen and (max-width: 767px) {
+    .footer__links {
+        font-size: 24px;
+        line-height: 24px;
+    }
+}

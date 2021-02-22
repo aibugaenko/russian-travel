@@ -1,0 +1,7 @@
+.cover__link {
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    z-index: 2;
+    cursor: url(../../../images/Pointer.cur), pointer;
+}
