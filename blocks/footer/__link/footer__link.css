@@ -5,15 +5,20 @@
     text-decoration: none;
     cursor: url(../../../images/Pointer.cur), pointer;
     color: white;
+    margin-right: 18px;
+    transition: opacity 0.5s ease 0.1s; 
+}
+
+.footer__link:last-of-type {
+    margin-right: 0;
 }
 
 .footer__link:hover {
     opacity: 0.8;
-    transition: opacity 0.5s ease 0.1s; 
 }
 
 @media screen and (max-width: 767px) {
-    .footer__links {
+    .footer__link {
         font-size: 24px;
         line-height: 24px;
     }
