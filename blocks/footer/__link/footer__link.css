@@ -11,6 +11,7 @@
 
 .footer__link:last-of-type {
     margin-right: 0;
+    margin-bottom: 0;
 }
 
 .footer__link:hover {
@@ -21,5 +22,6 @@
     .footer__link {
         font-size: 24px;
         line-height: 24px;
+        margin-bottom: 32px;
     }
 }

@@ -6,10 +6,15 @@
     text-decoration: none;
     margin-right: 18px;
     cursor: url(../../../images/Pointer.cur), pointer;
+    transition: opacity 0.5s ease 0.1s; 
 }
 
 .header__lang-link:last-of-type {
     margin-right: 0;
+}
+
+.header__lang-link:hover {
+    opacity: 0.8;
 }
 
 @media screen and (max-width: 767px) {
